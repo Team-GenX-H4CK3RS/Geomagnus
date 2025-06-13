@@ -1,0 +1,47 @@
+{
+  "location": {
+    "latitude": 15.1394,
+    "longitude": 76.9214,
+    "survey_date": "2025-06-11",
+    "purpose": "Mineral Targeting - IndiaAI Hackathon"
+  },
+  "processing_timestamp": "2025-06-11T20:18:54.568500",
+  "data_shape": [
+    512,
+    200
+  ],
+  "processed_data_shape": [
+    512,
+    200
+  ],
+  "sampling_parameters": {
+    "dt": 0.1,
+    "dx": 0.25,
+    "depth_range_m": 10.0,
+    "distance_range_m": 50.0
+  },
+  "processing_log": [
+    "Synthetic GPR data generated with mineral signatures",
+    "Time-zero correction applied",
+    "Dewow filter applied",
+    "Bandpass filter (50-500 Hz) applied",
+    "AGC gain applied",
+    "Background removal applied",
+    "Amplitude enhancement applied"
+  ],
+  "purpose": "IndiaAI Hackathon - Mineral Targeting",
+  "features_extracted": [
+    "mean_amplitude_profile",
+    "max_amplitude_profile",
+    "std_amplitude_profile",
+    "depth_averaged_amplitude",
+    "amplitude_variance_by_depth",
+    "total_energy",
+    "peak_frequency_estimate",
+    "amplitude_distribution",
+    "gradient_magnitude",
+    "location_features"
+  ],
+  "coordinate_system": "WGS84",
+  "data_type": "real_gpr"
+}

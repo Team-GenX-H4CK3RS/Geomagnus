@@ -1,0 +1,50 @@
+============================================================
+GPR MINERAL TARGETING ANALYSIS REPORT
+IndiaAI Hackathon - Mineral Discovery
+============================================================
+
+LOCATION INFORMATION:
+Latitude: 15.139400°N
+Longitude: 76.921400°E
+Analysis Date: 2025-06-11 20:18:54
+
+DATA SPECIFICATIONS:
+Data Dimensions: 512 samples × 200 traces
+Depth Range: 0 - 10.0 meters
+Distance Range: 0 - 50.0 meters
+Vertical Resolution: 0.1 ns
+Horizontal Resolution: 0.25 m
+
+PROCESSING APPLIED:
+ 1. Synthetic GPR data generated with mineral signatures
+ 2. Time-zero correction applied
+ 3. Dewow filter applied
+ 4. Bandpass filter (50-500 Hz) applied
+ 5. AGC gain applied
+ 6. Background removal applied
+ 7. Amplitude enhancement applied
+
+MINERAL TARGETING RESULTS:
+Potential Mineral Zones Detected: 0
+
+Max Amplitude: 1.000
+Mean Amplitude: 0.743
+Signal-to-Noise Ratio: 9.20
+
+RECOMMENDATIONS:
+1. Integrate results with geological and geochemical data
+2. Consider follow-up detailed surveys at identified anomaly zones
+3. Use processed data as input for AI/ML mineral targeting models
+4. Validate results with ground truth data when available
+
+FILES GENERATED:
+- Raw GPR data: gpr_mineral_targeting_15.1394_76.9214_20250611_201854_raw_data.npy
+- Processed GPR data: gpr_mineral_targeting_15.1394_76.9214_20250611_201854_processed_data.npy
+- ML features: gpr_mineral_targeting_15.1394_76.9214_20250611_201854_ml_features.npy
+- Metadata: gpr_mineral_targeting_15.1394_76.9214_20250611_201854_metadata.json
+- Visualization: mineral_targeting_analysis_15.1394_76.9214.png
+- This report: gpr_mineral_targeting_15.1394_76.9214_20250611_201854_summary_report.txt
+
+============================================================
+End of Report
+============================================================
