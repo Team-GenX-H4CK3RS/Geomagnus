@@ -1,0 +1,10 @@
+__pycache__/
+toolbox/__pycache__
+.DS_Store
+notused/
+irlib/
+tutorials/
+build/
+gprpy.egg-info/
+testprofile.vts
+*.pyc
