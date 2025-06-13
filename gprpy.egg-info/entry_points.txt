@@ -1,0 +1,2 @@
+[console_scripts]
+gprpy = gprpy.__main__:main
