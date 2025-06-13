@@ -1,0 +1,9 @@
+google-generativeai
+google-genai 
+langchain-community
+langchain
+sarvamai 
+gtts 
+langdetect
+pydub 
+pygame
