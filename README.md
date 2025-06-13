@@ -1,3 +1,8 @@
+Datasets as given by IndiaAI
+-
+
+https://drive.google.com/drive/folders/1fW1ovVQegwjJt7eOLXP4jAtk5cgTfuhy
+
 
 Run these
 -
