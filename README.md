@@ -6,7 +6,6 @@ Run these
 mineral_targeting_gpr.py
 <br/>
 <br/>
-
 gprgitsetup.py
 <br/>
 <br/>
